@@ -1,1 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="31.88" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 257"><defs><linearGradient id="IconifyId1813088fe1fbc01fb466" x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%"><stop offset="0%" stop-color="#41D1FF"></stop><stop offset="100%" stop-color="#BD34FE"></stop></linearGradient><linearGradient id="IconifyId1813088fe1fbc01fb467" x1="43.376%" x2="50.316%" y1="2.242%" y2="89.03%"><stop offset="0%" stop-color="#FFEA83"></stop><stop offset="8.333%" stop-color="#FFDD35"></stop><stop offset="100%" stop-color="#FFA800"></stop></linearGradient></defs><path fill="url(#IconifyId1813088fe1fbc01fb466)" d="M255.153 37.938L134.897 252.976c-2.483 4.44-8.862 4.466-11.382.048L.875 37.958c-2.746-4.814 1.371-10.646 6.827-9.67l120.385 21.517a6.537 6.537 0 0 0 2.322-.004l117.867-21.483c5.438-.991 9.574 4.796 6.877 9.62Z"></path><path fill="url(#IconifyId1813088fe1fbc01fb467)" d="M185.432.063L96.44 17.501a3.268 3.268 0 0 0-2.634 3.014l-5.474 92.456a3.268 3.268 0 0 0 3.997 3.378l24.777-5.718c2.318-.535 4.413 1.507 3.936 3.838l-7.361 36.047c-.495 2.426 1.782 4.5 4.151 3.78l15.304-4.649c2.372-.72 4.652 1.36 4.15 3.788l-11.698 56.621c-.732 3.542 3.979 5.473 5.943 2.437l1.313-2.028l72.516-144.72c1.215-2.423-.88-5.186-3.54-4.672l-25.505 4.922c-2.396.462-4.435-1.77-3.759-4.114l16.646-57.705c.677-2.35-1.37-4.583-3.769-4.113Z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Shavej Portfolio Diamond Icon">
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#1A1A1A"/>
+    </linearGradient>
+
+    <!-- Gold gradient for top facets -->
+    <linearGradient id="gold-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE566"/>
+      <stop offset="100%" stop-color="#D4920A"/>
+    </linearGradient>
+
+    <!-- Gold gradient for left facets -->
+    <linearGradient id="gold-left" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFC200"/>
+      <stop offset="100%" stop-color="#8B5E00"/>
+    </linearGradient>
+
+    <!-- Gold gradient for right facets -->
+    <linearGradient id="gold-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD966"/>
+      <stop offset="100%" stop-color="#A07000"/>
+    </linearGradient>
+
+    <!-- Gold gradient for bottom -->
+    <linearGradient id="gold-bottom" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#C8900A"/>
+      <stop offset="100%" stop-color="#4A2F00"/>
+    </linearGradient>
+
+    <!-- Center crown facet -->
+    <linearGradient id="gold-center" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0A0"/>
+      <stop offset="50%" stop-color="#FFD000"/>
+      <stop offset="100%" stop-color="#B07800"/>
+    </linearGradient>
+
+    <!-- Outer glow -->
+    <filter id="outer-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Edge glow -->
+    <filter id="edge-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+
+  <!-- Subtle background grid lines -->
+  <line x1="128" y1="20" x2="128" y2="236" stroke="#FFD000" stroke-width="0.3" stroke-opacity="0.07"/>
+  <line x1="20" y1="128" x2="236" y2="128" stroke="#FFD000" stroke-width="0.3" stroke-opacity="0.07"/>
+  <line x1="20" y1="20" x2="236" y2="236" stroke="#FFD000" stroke-width="0.3" stroke-opacity="0.05"/>
+  <line x1="236" y1="20" x2="20" y2="236" stroke="#FFD000" stroke-width="0.3" stroke-opacity="0.05"/>
+
+  <!-- Outer ring accent -->
+  <rect x="14" y="14" width="228" height="228" rx="44" fill="none" stroke="#FFD000" stroke-width="0.6" stroke-opacity="0.15"/>
+
+  <!-- Corner marks -->
+  <rect x="22" y="22" width="10" height="2" rx="1" fill="#FFD000" opacity="0.35"/>
+  <rect x="22" y="22" width="2" height="10" rx="1" fill="#FFD000" opacity="0.35"/>
+  <rect x="224" y="22" width="10" height="2" rx="1" fill="#FFD000" opacity="0.35" transform="translate(10,0) scale(-1,1)"/>
+  <rect x="232" y="22" width="2" height="10" rx="1" fill="#FFD000" opacity="0.35"/>
+  <rect x="22" y="224" width="10" height="2" rx="1" fill="#FFD000" opacity="0.35"/>
+  <rect x="22" y="222" width="2" height="12" rx="1" fill="#FFD000" opacity="0.35"/>
+  <rect x="224" y="224" width="12" height="2" rx="1" fill="#FFD000" opacity="0.35"/>
+  <rect x="232" y="222" width="2" height="12" rx="1" fill="#FFD000" opacity="0.35"/>
+
+  <!-- ══ DIAMOND GEM (geometric facets) ══ -->
+  <!-- Diamond top crown row -->
+  <!-- Top-left crown facet -->
+  <polygon points="128,52  88,100  128,88" fill="url(#gold-top)" opacity="0.95"/>
+  <!-- Top-right crown facet -->
+  <polygon points="128,52  128,88  168,100" fill="url(#gold-right)" opacity="0.9"/>
+  <!-- Crown: far left -->
+  <polygon points="88,100  58,100  92,132" fill="url(#gold-left)" opacity="0.85"/>
+  <!-- Crown: center -->
+  <polygon points="88,100  128,88  168,100  128,116" fill="url(#gold-center)" opacity="1"/>
+  <!-- Crown: far right -->
+  <polygon points="168,100  198,100  164,132" fill="url(#gold-right)" opacity="0.8"/>
+
+  <!-- Pavilion (lower half) -->
+  <!-- Left pavilion -->
+  <polygon points="58,100  92,132  128,204" fill="url(#gold-left)" opacity="0.75"/>
+  <!-- Center-left pavilion -->
+  <polygon points="92,132  128,116  128,204" fill="url(#gold-bottom)" opacity="0.88"/>
+  <!-- Center-right pavilion -->
+  <polygon points="128,116  164,132  128,204" fill="url(#gold-bottom)" opacity="0.72"/>
+  <!-- Right pavilion -->
+  <polygon points="164,132  198,100  128,204" fill="url(#gold-right)" opacity="0.65"/>
+
+  <!-- Edge highlight lines (facet edges) -->
+  <g filter="url(#edge-glow)" opacity="0.9">
+    <!-- Top ridge -->
+    <line x1="128" y1="52" x2="88" y2="100" stroke="#FFF0A0" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="128" y1="52" x2="168" y2="100" stroke="#FFF0A0" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Crown girdle -->
+    <line x1="58" y1="100" x2="88" y2="100" stroke="#FFE566" stroke-width="1" stroke-linecap="round"/>
+    <line x1="88" y1="100" x2="128" y2="88" stroke="#FFE566" stroke-width="1" stroke-linecap="round"/>
+    <line x1="128" y1="88" x2="168" y2="100" stroke="#FFE566" stroke-width="1" stroke-linecap="round"/>
+    <line x1="168" y1="100" x2="198" y2="100" stroke="#FFE566" stroke-width="1" stroke-linecap="round"/>
+    <!-- Outer girdle -->
+    <line x1="58" y1="100" x2="198" y2="100" stroke="#FFC200" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Pavilion -->
+    <line x1="58" y1="100" x2="128" y2="204" stroke="#D4920A" stroke-width="1" stroke-linecap="round"/>
+    <line x1="92" y1="132" x2="128" y2="204" stroke="#D4920A" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="128" y1="116" x2="128" y2="204" stroke="#FFD966" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="164" y1="132" x2="128" y2="204" stroke="#D4920A" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="198" y1="100" x2="128" y2="204" stroke="#D4920A" stroke-width="1" stroke-linecap="round"/>
+    <!-- Internal crown lines -->
+    <line x1="88" y1="100" x2="128" y2="116" stroke="#FFD000" stroke-width="0.7"/>
+    <line x1="168" y1="100" x2="128" y2="116" stroke="#FFD000" stroke-width="0.7"/>
+    <line x1="92" y1="132" x2="128" y2="116" stroke="#C8900A" stroke-width="0.7"/>
+    <line x1="164" y1="132" x2="128" y2="116" stroke="#C8900A" stroke-width="0.7"/>
+    <line x1="92" y1="132" x2="58" y2="100" stroke="#C8900A" stroke-width="0.7"/>
+    <line x1="164" y1="132" x2="198" y2="100" stroke="#C8900A" stroke-width="0.7"/>
+  </g>
+
+  <!-- Specular highlight on top-left facet -->
+  <polygon points="128,52  108,76  118,70" fill="#FFFBE0" opacity="0.55"/>
+
+  <!-- Culet tip glow -->
+  <circle cx="128" cy="204" r="3.5" fill="#FFE566" opacity="0.8"/>
+  <circle cx="128" cy="204" r="7" fill="#FFD000" opacity="0.15"/>
+</svg>
